@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	style="@style/AppTheme"
+	android:orientation="vertical"
+	android:layout_margin="12dp">
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="number"
+		android:layout_height="wrap_content"
+		android:ems="5"
+		android:gravity="center"
+		android:id="@+id/EditText_ksq1"
+		android:hint="ksq1 balı:"
+		android:layout_margin="12dp"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="number"
+		android:layout_height="wrap_content"
+		android:ems="5"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:id="@+id/EditText_ksq2"
+		android:hint="ksq2 balı:"
+		android:layout_margin="12dp"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="number"
+		android:layout_height="wrap_content"
+		android:ems="5"
+		android:gravity="center"
+		android:id="@+id/EditText_ksq3"
+		android:hint="ksq3 balı:"
+		android:layout_margin="12dp"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Hesabla"
+		android:id="@+id/mainButtonHesabla"
+		android:onClick="onHesablaClick"
+		android:layout_margin="10dp"/>
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/Textnetice"
+			android:layout_margin="12dp"
+			android:gravity="center_vertical|center_horizontal"
+			android:hint="Yarımillik bal burada əks olunacaq..."
+			android:inputType="text"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+
